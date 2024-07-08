@@ -1,0 +1,221 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav { margin-bottom: 20px;}
+nav button { margin-right: 10px;}
+
+nav { margin-bottom: 20px;}
+nav button { margin-right: 10px;}
+/* Global Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Header & Nav */
+header {
+    text-align: center;
+    padding: 1px;
+    background-color: turquoise;
+}
+
+header h1 {
+    position: static;
+    font-size: 80px;
+    color: rgb(27, 26, 26);
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+header img {
+    float: left;   
+}
+
+nav {
+    margin: 20px auto;
+    max-width: auto;
+    height: auto;
+}
+
+nav ul.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+}
+
+nav ul.menu li {
+    margin: 10px auto;
+    float: left;
+    width: 196px;
+    margin-left: 15px;
+    height: 50px;
+    background:violet;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+    font-weight: bold;    
+}
+
+nav li:hover {
+    background-color: rgb(197, 85, 122);
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav li {
+    transition: all 0.2s ease-in-out;
+}
+
+nav li:active {
+    background-color: #c941ce;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.table{
+    margin: 20px;
+}
+/* Estilos del footer */
+footer {
+    background-color: turquoise;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+form textarea {
+    width: 94%;
+    height: 200px;
+    padding: 15px;
+    margin: 20px;
+    resize: none;
+}
+
+form input[type="radio"] {
+    width: 20px;
+    display: inline-block;
+    background-color: rgb(247, 247, 239);
+    margin-bottom: 5px;
+}
+
+form input[type="checkbox"] {
+    width: 20px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Otros Tags especificos */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+b {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Clases Propias */
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+.galeria-item{
+    width: calc(25% - 20px);
+    margin: 20px;
+   
+}
+.galeria-item img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+}
+.galeria-item a{
+text-decoration: none;
+color: inherit;
+}
+.linea-turquesa{
+background-color: turquoise;
+color:black;
+font-size: 18px;
+font-weight: bold;
+padding: 10px;
+text-align: center;
+}
+
+/* Musicales*/
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }
+  .titulo{
+    text-align:center;
+    margin-right: 20px;
+  }
+  .imagen{
+    display: flex;
+    justify-content:right;
+    align-items: right;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-right: 100px;
+  }
+
+ .image img{
+    max-width: 100%;
+    max-height: 100%;
+
+ }
+.text1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 19px;
+    grid-column: 2/ 2;
+    grid-row: 1 / 2;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+/*Teatre */
+.contenedor{
+    margin: 0% auto;
+   
+}
+.imagenes{
+    border:0px solid turquoise;
+    display: flex;
+    justify-content: left;
+        align-items: center;
+}
+.boton{background-color: #c941ce;
+color: turquoise ;
+}
+
+/*Tienda */
+    
+
+
+
+
+
+
+
+
+
+   
